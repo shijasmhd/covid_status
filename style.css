@@ -1,0 +1,26 @@
+body{
+    box-sizing: border-box;
+    animation: opacit 2s linear;
+}
+.heading{
+    padding: 4% 8%;
+}
+.card-title{
+    font-weight: 500 !important;
+}
+#countrySearch{
+    margin: 3% 7% 4% 7%;
+}
+#countrySearch label{
+    font-size: medium;
+    font-weight: bold;
+}
+
+@keyframes opacit{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
