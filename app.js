@@ -66,4 +66,8 @@ fetch("https://coronavirus-19-api.herokuapp.com/countries", {
 })
 .catch(err => {
 	console.error(err);
+	document.getElementById('main').style.display = 'none';
+	document.getElementById('search').style.display = 'none';
+	document.getElementById('error').style.display = 'block';
+	document.getElementById('errorBody').innerHTML = err;
 });
